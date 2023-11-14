@@ -7,9 +7,12 @@
 html{
     font-family: 'Merriweather', serif;
     font-family: 'Mooli', sans-serif;
+    scroll-behavior: smooth;
 }
+
 body{
     margin:0;  
+    scroll-behavior: smooth;
 }
 h1,h2,h3,h4,p,ul,hr{
     margin-top: 0;

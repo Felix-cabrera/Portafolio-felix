@@ -115,7 +115,7 @@
     border-radius: 1em;
     background-color:rgb(154, 153, 153);
 }
-@media screen and (max-width: 1450px){
+@media screen and (max-width: 1600px){
     .portftolio__div{
         width: 70%;
     }
@@ -127,9 +127,16 @@
 @media screen and (max-width: 1250px){
     .portftolio__container{
         margin: 0;
+        scroll-margin-top: 20vh;
     }
     .portftolio__header{
         padding-top: 15vh;
+    }
+    .portftolio__title{
+        top:15%;
+    }
+    .hr__block{
+        top: 21%;
     }
 }
 @media screen and (max-width: 1000px){
@@ -140,15 +147,57 @@
 @media screen and (max-width: 800px){
     .portftolio{
         width: 90%;
+        min-height: 100vh;
+        scroll-margin-top:20vh ;
     }
     .portftolio__div{
         width: 100%;
+        min-height: max-content;
     }
     .portftolio__descrip{
-        width: 350px;
+        width: 300px;
     }
     .portftolio__img{
         width: 300px;
-        height: 450px;
+        height: 500px;
+    }
+    .fa-angle-right{
+        bottom:0;
+    }
+    .fa-angle-left{
+        bottom:0;
+    }
+}
+@media screen and (max-width: 650px){
+    .dots-container{
+        display: none;
+    }
+    .fa-angle-right{
+        bottom: 50%;
+        display: none;
+    }
+    .fa-angle-left{
+        bottom: 50%;
+        display: none;
+    }
+    .portftolio__header{
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+    .portftolio__div{
+        width: 65%;
+    }
+    .portftolio__descrip{
+        gap: 0.5em;
+    }
+    .portftolio__img{
+        width: 250px;
+        height: 400px;
+    }
+    .portftolio__title{
+        top:2.5%;
+    }
+    .hr__block{
+        top: 5em;
     }
 }

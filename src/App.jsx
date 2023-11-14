@@ -13,13 +13,13 @@ function App() {
     setMode(!mode)
   }
   return (
-    <main className={mode ?'ligth':'dark'}>
+    <main className={mode ?'ligth':'dark'} >
       <Navegation mode={mode} handleToggle={handleToggle}/>
       <Home />
       <AboutMe />
       <Skills />
       <Portfolio mode={mode}/>
-      {/* <Contact /> */}
+      <Contact />
     </main>
   )
 }

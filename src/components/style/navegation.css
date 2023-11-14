@@ -13,7 +13,6 @@
     font-size: 1.5em;
     position: absolute;
     top: 0;
-    padding-top: 0.5em;
 }
 .fa-toggle-on{
     padding: 0.5em;
@@ -174,8 +173,5 @@
     .nav_bar{
         left: 0;
         transition: left 500ms ease;
-    }
-    .toggle{
-        padding:0;
     }
 }
