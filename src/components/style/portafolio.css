@@ -1,0 +1,154 @@
+.portftolio__container{
+    height: 100vh;
+    margin-left: 250px;
+    position: relative;
+}
+.portftolio{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.portftolio__title{
+    font-size: 3em;
+    font-weight: 400;
+    position: absolute;
+    top: 2.5%;
+}
+.hr__block{
+    position: absolute;
+    top: 5em;
+    width: 100%;
+}
+.portftolio__div{
+   height: 100%;
+   width:50%;
+   margin: 0 auto;
+   display: flex;
+   overflow: hidden;
+   gap: 4em;
+}
+.portftolio__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4em;
+    width: 100%;
+    gap: 2.5em;
+}
+.portftolio__img{
+    width: 300px;
+    height: 660px;
+    border: 2px solid ;
+    border-radius: 2em;
+}
+.portftolio__descrip{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 1em;
+    
+}
+.bookstores{
+    display: flex;
+    gap: 0.5em;
+}
+.fa-angle-left {
+    font-size: 2.5em;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    font-weight: 700;
+    z-index: 1;
+    cursor: pointer;
+    transition: 250ms;
+}
+.fa-angle-right{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+    z-index: 1;
+    cursor: pointer;
+    transition: 250ms;
+}
+.dots-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 5%;
+    right: 41%;
+}
+.dot-container-item {
+    padding: 0.05em 0.18em;
+    cursor: pointer;
+    font-size: 2.5em;
+    text-align: center;
+}
+.portftolio__ul{
+    display: flex;
+    gap: 1em;
+}
+.item{
+    font-size: 2em;
+}
+.claro{
+    color: white;
+}
+.oscuro{
+    color: black;
+}
+.lista{
+    font-size: 1em;
+    text-decoration: none;
+}
+.lista:hover{
+    color: rgb(0, 187, 255);
+    text-decoration:underline;
+}
+.active {
+    border-radius: 1em;
+    background-color:rgb(154, 153, 153);
+}
+@media screen and (max-width: 1450px){
+    .portftolio__div{
+        width: 70%;
+    }
+    .portftolio__img{
+        width: 300px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 1250px){
+    .portftolio__container{
+        margin: 0;
+    }
+    .portftolio__header{
+        padding-top: 15vh;
+    }
+}
+@media screen and (max-width: 1000px){
+    .portftolio__div{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 800px){
+    .portftolio{
+        width: 90%;
+    }
+    .portftolio__div{
+        width: 100%;
+    }
+    .portftolio__descrip{
+        width: 350px;
+    }
+    .portftolio__img{
+        width: 300px;
+        height: 450px;
+    }
+}

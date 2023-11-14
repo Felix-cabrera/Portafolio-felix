@@ -1,0 +1,107 @@
+.skill__container{
+    margin-left: 250px;
+    min-height: 100vh;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skill{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skill__div{
+    width: 100%;
+    padding-bottom: 2.5em;
+}
+.skill__title{
+    font-size: 3em;
+    font-weight: 400;
+}
+.skill__ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+}
+.skill__li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6em;
+    text-decoration: none;
+    width: 200px;
+    padding: 0.5em;
+    border: 2px solid grey;
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+    font-size: 2em;
+    transition: 250ms ease;
+}
+.skill__li:hover{
+    transform: scale(1.05);
+}
+.fa-html5{
+    color: #b05454;
+    font-size: 1.5em;
+}
+.fa-css3-alt{
+    color: rgb(0, 60, 255);
+    font-size: 1.5em;
+}
+.fa-js{
+    color: rgb(213, 216, 14);
+    font-size: 1.5em;
+}
+.fa-react{
+    color: rgb(25, 44, 218);
+    font-size: 1.5em;
+}
+.fa-github{
+    font-size: 1.5em;
+}
+@media screen and (max-width: 1250px){
+    .skill__container{
+        margin: 0;
+        width: 100%;
+    }
+    .skill{
+        width: 90%;
+        padding-top: 15vh;
+    }
+}
+@media screen and (max-width: 900px){
+    .skill__title{
+        font-size: 2.5em;
+    }
+    .skill{
+        width: 100%;
+        padding: 0 1em;
+    }
+    .skill__ul{
+        justify-content: center;
+    }
+    .skill__li{
+        width: 130px;
+        font-size: 1.5em;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 500px){
+    .skill__ul{
+        gap: 2.5em 0.5em;
+    }
+    .skill__div{
+        padding-bottom: 1em;
+    }
+    .skill{
+        padding-top: 15vh;
+    }
+}

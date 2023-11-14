@@ -1,0 +1,129 @@
+.aboutme__container{
+    margin-left: 250px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+  .aboutme__title{
+    font-weight: 400;
+    font-size: 3em;
+  }
+  .aboutme__div{
+    width: 80%;
+    padding-bottom: 3em;
+  }
+  .aboutme{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.5em;
+    font-size: 1.1em;
+  }
+  .aboutme__descrip{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    gap: 2em;
+    font-size: 1.2em;
+  }
+  .aboutme__p{
+    text-align: justify;
+    font-size: 0.9em;
+  }
+  .aboutme__ul{
+    width: 550px;
+    display: flex;
+    font-size: 1em;
+    justify-content:center;
+    gap: 1.3em;
+    flex-direction: column;
+  }
+  .aboutme__item{
+    display: flex;
+  }
+  .line{
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  .line__title{
+    width: 100%;
+    border: 1px solid;
+  }
+  .email{
+    color: aqua;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 250ms ease;
+  }
+  .email:hover{
+    transform: scale(1.05);
+  }
+  .aboutme__value{
+    width: 90px;
+    font-weight: 600;
+  }
+  .aboutme__button{
+    background-color: aqua;
+    border-radius: 1em;
+    padding: 1em;
+    border: none;
+    width: 50%;
+    margin: 0;
+    font-size: 1em;
+    color: white;
+    transition: 250ms ease;
+  }
+  .aboutme__button:hover{
+    transform: scale(1.06);
+  }
+  @media screen and (max-width: 1250px){
+    .aboutme__container{
+      margin: 0;
+      padding-top: 15vh;
+    }
+    .aboutme{
+      width: 100%;
+      padding: 0 3em;
+    }
+    .aboutme__div{
+      padding: 0;
+      width: 90%;
+    }
+    .aboutme__descrip{
+      width: 350px;
+    }
+    .aboutme__ul{
+      width: 380px;
+    }
+  }
+  @media screen and (max-width: 900px){
+    .aboutme{
+      justify-content: center;
+      font-size: 0.8em;
+      margin-bottom: 5vh;
+    }
+    .aboutme__descrip{
+      width: 500px;
+    }
+    .aboutme__ul{
+      width: 500px;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .aboutme{
+      font-size: 0.8em;
+      padding: 0 1em;
+    }
+    .aboutme__title{
+      font-size: 2.5em;
+    }
+    .aboutme__item{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
