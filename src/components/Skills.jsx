@@ -14,7 +14,7 @@ const Skills = () => {
               <li className='skill__li'><i className="fa-brands fa-css3-alt"></i> Css</li>
               <li className='skill__li'><i className="fa-brands fa-js"></i> Javascript</li>
               <li className='skill__li'><i className="fa-brands fa-react"></i> React</li>
-              <li className='skill__li'><i class="fa-brands fa-node"></i> Node </li>
+              <li className='skill__li'><i className="fa-brands fa-node"></i> Node </li>
               <li className='skill__li'><i className="fa-brands fa-github"></i> Github </li>
           </ul>
         </article>

@@ -23,12 +23,12 @@ const AboutMe = () => {
             <ul className='aboutme__ul'>
                 <li className='aboutme__item' ><span className='aboutme__value'>Nombre : </span><span> Felix Cabrera Bernaola</span></li>
                 <hr className='line' />
-                <li className='aboutme__item' ><span className='aboutme__value'>Email :</span><span className='email'>cabrera.bernaola.felixg@gmail.com</span></li>
+                <li className='aboutme__item' ><span className='aboutme__value'>Email :</span><a className='email' href="mailto: cabrera.bernaola.felixg@gmail.com"><span >cabrera.bernaola.felixg@gmail.com</span></a></li>
                 <hr className='line' />
                 <li className='aboutme__item' ><span className='aboutme__value'>Edad :</span><span>24 años</span></li>
                 <hr className='line' />
                 <li className='aboutme__item' ><span className='aboutme__value'>Soy de :</span><span>Ica - Peru</span></li>
-                <button className='aboutme__button'>Descargar CV</button>
+                <button className='aboutme__button'><a className='home__link' download href="./images/Curriculum Vitae Felix .pdf">Descargar CV</a></button>
             </ul>
         </article>
     </section>

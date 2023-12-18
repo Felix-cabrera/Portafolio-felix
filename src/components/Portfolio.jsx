@@ -43,8 +43,8 @@ const Portfolio = ({mode}) => {
             <h2 className='portftolio__title' >Portafolio</h2>
             <hr className='line__title hr__block'/>
             <ul className='portftolio__div' ref={listRef}>
-                <i class="fa-solid fa-angle-left " onClick={() => scrollToImage('prev')}></i>
-                <i class="fa-solid fa-angle-right " onClick={() => scrollToImage('next')}></i>
+                <i className="fa-solid fa-angle-left " onClick={() => scrollToImage('prev')}></i>
+                <i className="fa-solid fa-angle-right " onClick={() => scrollToImage('next')}></i>
                 {
                     data.map((item) => {
                          return <li key={item.id} className='portftolio__header'>
