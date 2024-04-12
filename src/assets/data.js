@@ -44,5 +44,14 @@ export const data = [
         github:'https://github.com/Felix-cabrera/App-del-Clima',
         Enlace:'https://entregable2-guillermo.netlify.app/'
     },
+    {
+        id: 6,
+        imgUrl:'./images/shareMusic.PNG',
+        title:'Reproductor de musica',
+        description:'Una Api de spotify con canciones gratuita',
+        bookstores:['Html','Css','javascripts','react'],
+        github:'https://github.com/Felix-cabrera/music',
+        Enlace:'https://entregable6-guillermo.netlify.app/'
+    },
     
 ]
